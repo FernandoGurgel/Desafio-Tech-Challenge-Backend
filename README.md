@@ -22,7 +22,7 @@
 </p>
 
 <p align="center">
-  <a href="https://insomnia.rest/run/?label=Gostack%20desafio%20-%20conceitos%20nodejs&uri=https%3A%2F%2Fraw.githubusercontent.com%2FFernandoGurgel%2FDesafio-Tech-Challenge-Backend%2Fmaster%2FInsomnia-conceitos-nodejs.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+  <a href="https://raw.githubusercontent.com/FernandoGurgel/Desafio-Tech-Challenge-Backend/master/Insomnia_2020-07-09.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 </p>
 
 ## 🤓 Sobre o desafio
