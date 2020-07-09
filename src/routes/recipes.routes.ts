@@ -15,8 +15,6 @@ recipesRoutes.get('/', async (request, response) => {
   const recipes: Array<recipesDTO> = []
 
   if (i) {
-    const keywords = i.split(',')
-
     const responseRecipes = await RecipePuppy.get('/', {
       params: {
         i: i,
@@ -44,7 +42,7 @@ recipesRoutes.get('/', async (request, response) => {
       recipes.push(recipe)
     }
 
-    return response.send({ keywords: keywords, recipes: recipes })
+    return response.send({ keywords: i, recipes: recipes })
   }
 
   return response.send({ mensage: 'Sem ingrediente' })
